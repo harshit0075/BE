@@ -11,9 +11,9 @@ app.use("/users",userRouter)
 app.use("/notes",noteRouter)
 
  
-// app.get("/",(req,res)=>{
-//     res.send("Home Page")
-// })
+app.get("/",(req,res)=>{
+    res.send("Home Page")
+})
 
 app.listen(3535,async()=>{
 
